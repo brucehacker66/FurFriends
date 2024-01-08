@@ -15,7 +15,7 @@ import PrivateRoute from './utils/PrivateRoute'
 import { AuthProvider} from './context/AuthContext'
 
 import Bookmark from "./pages/Bookmark";
-import Topic from './pages/Topic'
+import ToDpic from './pages/Topic'
 import Profile from './pages/Profile'
 
 function App() {

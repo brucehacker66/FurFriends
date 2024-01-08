@@ -16,14 +16,14 @@ class Profile(models.Model):
 
 class Thread(models.Model):
     TOPIC_CHOICES = (
-    ("1", "Entertainment"),
-    ("2", "Sports"),
-    ("3", "Gaming"),
-    ("4", "Music"),
-    ("5", "Technology"),
-    ("6", "News"),
-    ("7", "Anime"),
-    ("8", "Drama & Movie"),
+    ("1", "Dogs"),
+    ("2", "Cats"),
+    ("3", "Fish"),
+    ("4", "Birds"),
+    ("5", "Reptiles"),
+    ("6", "Rabbits"),
+    ("7", "Amphibian"),
+    ("8", "Others"),
 )
     subject = models.CharField(max_length=128)
     content = models.TextField()
